@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: Avenir;
+  background-color: rgb(245, 246, 247);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* step */
+.step-parent {
+  max-width: 90%;
+}
+.parent-ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.parent-ul .number {
+  margin: 1px 1px;
+  background-color: rgb(224, 223, 223);
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: rgb(175, 174, 174);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.parent-ul .list:first-child .name {
+  color: blue;
+}
+.parent-ul .list:first-child .number {
+  color: white;
+  background-color: blue;
+}
+
+/* Form css */
+.form-parent {
+  width: 70%;
+  padding: 100px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 1px 1px 6px gray;
+}
+
+.label-name {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.one-field {
+  width: 30%;
+}
+
+.parent-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 80%;
+  height: 20%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.input-select {
+  width: 90%;
+  height: 60%;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.first-row {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1px 1px;
+}
+@media (max-width: 480px) {
+  .main {
+    max-width: 480px;
+  }
+  .first-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .one-field {
+    width: 100%;
+  }
+  .input {
+    width: 70%;
+    height: 10px;
+  }
+  .form-parent {
+    width: 100%;
+  }
+  .input-select {
+    width: 60%;
+    height: 30px;
+  }
+  .parent-ul {
+    overflow-x: auto;
+  }
+  .list {
+    width: fit-content;
+  }
+  .step-parent {
+  }
+}
+
+.text-area {
+  width: 86%;
+}
+
+.property {
+  display: grid;
+}
+.second-row {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1px 1px;
+}
+
+.property .label-property {
+}
+
+.file {
+  border: 1px dashed gray;
+  width: 85%;
+  padding: 7px 5px;
+}
+/* sd */
+/* Base Styling */
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* Form Group */
