@@ -1,6 +1,5 @@
 import "./App.css";
 import Form from "./components/Form";
-import Forms from "./components/Forms";
 import StepBar from "./components/StepBar";
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
     <div className="main">
       <StepBar />
       <Form />
-      {/* <Forms /> */}
     </div>
   );
 }

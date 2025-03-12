@@ -5,6 +5,7 @@ export default function Form() {
   return (
     <div className="form-parent">
       <h2>Borrower Company Info</h2>
+
       <div className="parent-input">
         <div className="first-row">
           <div className="one-field">
@@ -39,6 +40,11 @@ export default function Form() {
             <input type="file" className="file" />
           </div>
         </div>
+      </div>
+      <hr />
+      <div className="footer-button">
+        <button className="back-button">Back</button>
+        <button className="continue-button">Continue</button>
       </div>
     </div>
   );

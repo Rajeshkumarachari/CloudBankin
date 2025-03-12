@@ -123,8 +123,6 @@ body {
   .list {
     width: fit-content;
   }
-  .step-parent {
-  }
 }
 
 .text-area {
@@ -142,29 +140,39 @@ body {
   padding: 1px 1px;
 }
 
-.property .label-property {
-}
-
 .file {
   border: 1px dashed gray;
   width: 85%;
   padding: 7px 5px;
-}
-/* sd */
-/* Base Styling */
-.container {
-  max-width: 600px;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
   text-align: left;
   margin-bottom: 20px;
 }
+/* footer button css */
 
-/* Form Group */
+.footer-button {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  border-top: 1px solid gray;
+  margin: 10px 1px;
+  padding: 20px 1px;
+  float: right;
+}
+.back-button {
+  background-color: white;
+  padding: 6px 27px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-weight: 700;
+}
+.continue-button {
+  background-color: rgb(58, 58, 219);
+  padding: 6px 27px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
